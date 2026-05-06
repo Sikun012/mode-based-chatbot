@@ -33,7 +33,7 @@ Users can choose how the chatbot behaves — Angry 😡, Funny 😂, or Sad 😢
 
 ```
 ├── app.py                # Streamlit UI chatbot
-├── chatbot_cli.py       # Terminal-based chatbot
+├── chatbot.py       # Terminal-based chatbot
 ├── .env                 # Environment variables (API key)
 ├── requirements.txt     # Dependencies
 ```
@@ -92,7 +92,7 @@ streamlit run app.py
 ### 🔹 Run CLI Chatbot
 
 ```
-python chatbot_cli.py
+python chatbot.py
 ```
 
 ---
